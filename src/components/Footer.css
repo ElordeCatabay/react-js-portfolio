@@ -1,0 +1,20 @@
+footer {
+    background:black;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+footer a {
+    color: rgb(255, 255, 255);
+}
+.footer__image {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    display: inline-block;
+}
