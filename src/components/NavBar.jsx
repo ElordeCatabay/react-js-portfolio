@@ -54,7 +54,7 @@ const links=[
        
        {nav&& (
         <ul className="flex flex-col justify-center items-center 
-        absolute top-1 left-40 bg-gradient-to-b
+        absolute top-1 left-40  bg-gradient-to-b
         from-black to-gray-800 text-gray-500">
     
 {links.map(({id,link})=> (
