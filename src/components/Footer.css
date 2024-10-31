@@ -1,20 +1,29 @@
 footer {
-    background:black;
-    padding: 0.2rem;
+    background: #101820;
+    padding: 2rem 0;
     text-align: center;
+    color: #f4f4f4;
     font-size: 0.9rem;
 }
-footer a {
-    color: rgb(255, 255, 255);
-}
+
 .footer__image {
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80px;
+    height: auto;
+    margin: 0 auto 1rem;
 }
+
 .footer__logo {
-    font-size: 2rem;
-    font-weight: 500;
-    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.footer__school_name {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer__copyright {
+    font-size: 0.8rem;
+    color: #a9a9a9;
 }

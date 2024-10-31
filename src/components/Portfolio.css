@@ -1,0 +1,86 @@
+/* Portfolio.css */
+
+/* Main portfolio section */
+.portfolio-container {
+    background-color: #1f2937; /* Dark background for the portfolio section */
+    color: #ffffff; /* White text for contrast */
+    padding: 4rem 1rem; /* Generous padding */
+    overflow: hidden;
+    margin-top: 4rem; /* Add margin at the top for spacing */
+  }
+  /* Title styling */
+  .portfolio-title {
+    text-align: center;
+    font-size: 3rem; /* Larger font size for title */
+    font-weight: bold; /* Bold text for title */
+    margin-bottom: 0.5rem; /* Space below title */
+    border-bottom: 4px solid #4c1d95; /* Underline effect */
+  }
+  
+  /* Subtitle styling */
+  .portfolio-subtitle {
+    text-align: center;
+    font-size: 1.5rem; /* Larger subtitle font size */
+    margin-bottom: 2rem; /* Space below subtitle */
+  }
+  
+  /* Grid layout for portfolio items */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid layout */
+    gap: 1.5rem; /* Space between items */
+    padding: 0 1rem; /* Horizontal padding */
+  }
+  
+  /* Individual portfolio item */
+  .portfolio-item {
+    background-color: #2a2a2a; /* Darker background for each item */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  }
+  
+  /* Scale effect and shadow on hover */
+  .portfolio-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  }
+  
+  /* Image styling */
+  .portfolio-image {
+    width: 100%; /* Full width */
+    height: 180px; /* Fixed height for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    border-bottom: 3px solid #4c1d95; /* Bottom border for image */
+  }
+  
+  /* Button styling */
+  .portfolio-button {
+    width: calc(100% - 2rem); /* Full width minus margins */
+    padding: 1rem; /* Padding for button */
+    background-color: #4c1d95; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    margin: 1rem auto; /* Centered margin */
+  }
+  
+  .portfolio-button:hover {
+    background-color: #5e30b1; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .portfolio-title {
+      font-size: 2.5rem; /* Adjust title size for smaller screens */
+    }
+  
+    .portfolio-subtitle {
+      font-size: 1.2rem; /* Adjust subtitle size for smaller screens */
+    }
+  }
+  
